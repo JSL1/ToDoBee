@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HoneyDoo List - to do list app task tracking sticky notes project management</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Roboto&display=swap');
+</style>
+
+</head>
+<body>
+  <div class="container-vert main">
+    <div id="header">
+      <span class="material-symbols-outlined logo">
+      emoji_nature
+      </span>
+      <span class="logo"><i>Too Doo List</i></span>
+    </div>
+    <div class="container-hor">
+      <div id="controls">
+        <h3>My Projects </h3>
+        <hr class="line-sm">
+        <div id="project-tabs">
+          <span class="project-name-select">Example Project</span>
+        </div>
+        <button id="new-project-button">+</button>
+        <div id="popup-form">
+          <div id="new-project-top">
+            <span><h3>New Project</h3></span>
+            <button id="new-project-x">X</button>
+          </div>
+          <form id="new-project-form">
+          <input type="text" id="new-project-name" placeholder="What's your new project called?">
+          <input type="submit" id="new-project-submit" value="Add project">
+          </form>
+        </div>
+      </div>
+      <div id="content">
+       <h2 id="project-title">Select a Project</h2>
+        <div id="new-task">
+        <!--<h3>Add a new task</h3>
+            <div id="form-controls-2">
+            <div>
+              <label for="priority">Task Priority:</label>
+              <select name="priority" id="priority" form="new-task-form">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+              </select>
+            </div>
+            <div>
+              <label for="date">Due Date:</label>
+              <input type="date" form="new-task-input" id="date">
+            </div>
+          </div>
+          <form id="new-task-form">
+            <input type="text" id="new-task-input" placeholder="What do you have planned?">
+            <input type="submit" id="new-task-submit" value="Add Task">
+          </form> -->
+          </div>
+          <div id="current-tasks">
+          
+          </div>
+        </div>
+    <!--<div id="footer">
+      <hr class="line-med">
+      &copy;2023 Jeremy St Pierre <img src="images/github-mark.svg">
+    </div>-->
+    </div>
+  </div>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
